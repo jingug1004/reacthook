@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useReducer, useMemo} from 'react';
+import React, {useState, useEffect, useReducer, useMemo, useCallback} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,7 +13,7 @@ const Average = () => {
     const [list, setList] = useState([]);
     const [number, setNumber] = useState('');
 
-    const onChange = e => {
+/*    const onChange = e => {
         setNumber(e.target.value);
     }
 
@@ -21,7 +21,17 @@ const Average = () => {
         const nextList = list.concat(parseInt(number));
         setList(nextList);
         setNumber('');
-    }
+    }*/
+
+    const onChange = useCallback(e => {
+        setNumber(e.target.value);
+    }, []);
+
+    const onInsert = useCallback(() => {
+        const nextList = list.concat(parseInt(number));
+        setList(nextList);
+        setNumber('');
+    }, [number, list]);
 
     const avg = useMemo(() => getAverage(list), [list]);
 
