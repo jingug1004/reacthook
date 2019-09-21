@@ -1,33 +1,30 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useReducer} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function reducer(state, action) {
+    return {
+        ...state,
+        [action.name]: action.value
+    };
+}
+
 const Info = () => {
-    const [name, setName] = useState('');
-    const [nickname, setNickname] = useState('');
-
-    useEffect(() => {
-        console.log('렌더링이 완료되었습니다.');
-        console.log({name, nickname});
-        return () => {
-            console.log('cleanup');
-            console.log({name, nickname});
-        }
+    const [state, dispatch] = useReducer(reducer, {
+        name: '',
+        nickname: ''
     });
+    const {name, nickname} = state;
 
-    const onChangeName = e => {
-        setName(e.target.value);
-    }
-
-    const onChangeNickname = e => {
-        setNickname(e.target.value);
+    const onChange = e => {
+        dispatch(e.target);
     }
 
     return (
         <div>
             <div>
-                <input vlaue={name} onChange={onChangeName}/>
-                <input vlaue={nickname} onChange={onChangeNickname}/>
+                <input name="name" vlaue={name} onChange={onChange}/>
+                <input name="nickname" vlaue={nickname} onChange={onChange}/>
             </div>
             <div>
                 <div>
