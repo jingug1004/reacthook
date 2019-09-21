@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3080e9cf-e4ab-4f99-997a-59c386c58a89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/useInputs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Average.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Average.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Info.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,9 +26,9 @@
                 <entry file="file://$PROJECT_DIR$/src/Info.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="518">
-                      <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+                      <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
                       <folding>
-                        <element signature="e#0#38#0" expanded="true" />
+                        <element signature="e#0#61#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -39,8 +41,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Counter.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="378">
-                      <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+                    <state relative-caret-position="308">
+                      <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -68,13 +70,25 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Average.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="574">
                       <caret line="41" column="69" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
                       <folding>
                         <element signature="e#0#61#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/useInputs.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="168">
+                      <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+                      <folding>
+                        <element signature="e#0#91#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -87,8 +101,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/App.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="126">
-                      <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                    <state relative-caret-position="112">
+                      <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -124,9 +138,10 @@
         <option value="$PROJECT_DIR$/src/Counter.js" />
         <option value="$PROJECT_DIR$/src/a01.js" />
         <option value="$PROJECT_DIR$/src/a02.js" />
+        <option value="$PROJECT_DIR$/src/Average.js" />
+        <option value="$PROJECT_DIR$/src/useInputs.js" />
         <option value="$PROJECT_DIR$/src/Info.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Average.js" />
       </list>
     </option>
   </component>
@@ -290,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569027089080</updated>
-      <workItem from="1569027090380" duration="14576000" />
+      <workItem from="1569027090380" duration="15321000" />
     </task>
     <task id="LOCAL-00001" summary="190921(토) 리액트를 다루는 기술_01 hook">
       <created>1569032012978</created>
@@ -334,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569042691390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="190921(토) 리액트를 다루는 기술_07 hook">
+      <created>1569043712633</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569043712633</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14576000" />
+    <option name="totallyTimeSpent" value="15321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="1" width="3852" height="1046" extended-state="0" />
@@ -376,7 +398,8 @@
     <MESSAGE value="190921(토) 리액트를 다루는 기술_04 hook" />
     <MESSAGE value="190921(토) 리액트를 다루는 기술_05 hook" />
     <MESSAGE value="190921(토) 리액트를 다루는 기술_06 hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="190921(토) 리액트를 다루는 기술_06 hook" />
+    <MESSAGE value="190921(토) 리액트를 다루는 기술_07 hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="190921(토) 리액트를 다루는 기술_07 hook" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/a02.js">
@@ -403,10 +426,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Average.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="41" column="69" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/useInputs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -415,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -426,17 +469,7 @@
     <entry file="file://$PROJECT_DIR$/src/Info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Average.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="41" column="69" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
